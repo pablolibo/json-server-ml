@@ -1,0 +1,11 @@
+version: '2.2'
+services:
+  json-server:
+    build:
+      dockerfile: Dockerfile
+      context: ./
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./db/:/db/
+    command: json-server --watch /db/db.json -H 0.0.0.0 
