@@ -7,7 +7,7 @@ git clone repo
 docker-compose up
 ```
 
-##Preguntas:
+## Preguntas:
 
 ### a) Permitir la subida de un json al pegarle a la uri /json con un POST, indicando el id del json en el cuerpo
 
